@@ -1,7 +1,8 @@
 #Mengimport bilangan random
 import random
 n = random.randint(1, 100)
-
+print("Halo, mari kita main tebak-tebakkan angka.")
+print("Aku sudah memilih satu angka, silahkan kau menebaknya.")
 #Perulangan 
 for angkaTebakan in range (0, 100):
     angkaTebakan = int(input("Tebakan Anda = "))
