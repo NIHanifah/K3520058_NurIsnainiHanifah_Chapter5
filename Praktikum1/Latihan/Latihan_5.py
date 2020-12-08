@@ -42,8 +42,10 @@ gajiBersihD = gajiKotorD - potonganD
 
 print("----AWALI KATA DENGAN HURUF KAPITAL----")
 
+#!!!GUNAKAN HURUF KAPITAL SAAT INPUT GOLONGAN!!!
+#!!!GUNAKAN HURUF KECIL SAAT INPUT STATUS MENIKAH!!!
 #input data
-kodeKaryawan = int(input("Masukkan kode karyawan          : "))
+kodeKaryawan = input("Masukkan kode karyawan          : ")
 namaKaryawan = str(input("Masukkan nama karyawan          : "))
 golongan = input("Masukkan golongan               : ")
 statusMenikah = input("Masukkan status (Menikah/Belum) : ")

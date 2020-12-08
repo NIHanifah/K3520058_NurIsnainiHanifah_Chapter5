@@ -19,7 +19,8 @@ golongan4 = 'D'
 
 print('----AWALI KATA DENGAN HURUF KAPITAL----')
 
-kodeKaryawan = int(input("Masukkan kode karyawan : "))
+#!!!GUNAKAN HURUF KAPITAL SAAT MASUKKAN GOLONGAN!!!
+kodeKaryawan = input("Masukkan kode karyawan : ")
 namaKaryawan = str(input("Masukkan nama karyawan : "))
 golongan = input("Masukkan golongan      : ")
 
